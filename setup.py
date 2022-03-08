@@ -5,7 +5,7 @@ import setuptools
 
 setuptools.setup(
     name="EDutilities",
-    version="0.2",
+    version="0.3",
     author="Tarik Ronan Drevon",
     author_email="tarik.drevon@stfc.ac.uk",
     description="Continuous Electron Diffraction utilities ",
