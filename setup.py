@@ -5,7 +5,7 @@ import setuptools
 
 setuptools.setup(
     name="EDutilities",
-    version="0.3",
+    version="0.4",
     author="Tarik Ronan Drevon",
     author_email="tarik.drevon@stfc.ac.uk",
     description="Continuous Electron Diffraction utilities ",
@@ -22,9 +22,8 @@ setuptools.setup(
     ],
     python_requires='>=3.8',
     install_requires=[
-        # 'EDutils','TDdisplay',
-        'crystals',
-        'numpy','scipy','matplotlib','colorama','pandas',
+        'crystals','tarikDrevonUtils',
+        #'numpy','scipy','matplotlib','colorama','pandas',
         'easygui','cbf','tifffile','pickle5',
         ],
 )
