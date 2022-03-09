@@ -5,7 +5,7 @@ import setuptools
 
 setuptools.setup(
     name="EDutilities",
-    version="0.4",
+    version="0.6",
     author="Tarik Ronan Drevon",
     author_email="tarik.drevon@stfc.ac.uk",
     description="Continuous Electron Diffraction utilities ",
@@ -14,7 +14,7 @@ setuptools.setup(
     url="",
     packages=setuptools.find_packages(),
     include_package_data=True,
-    package_data={},
+    package_data={'':['data/abcd.npy']},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: BSD License ",
